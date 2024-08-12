@@ -22,16 +22,15 @@
   },
   "commandDisabled": [],
   "eventDisabled": [],
-  "BOTNAME": "Bot",
-  "PREFIX": "?",
+  "BOTNAME": "𝗩𝗜𝗗𝗘𝗟❆𝗕𝗢𝗧",
+  "PREFIX": "/",
   "ADMINBOT": [
-    "YOUR_FB_UID",
-    "OTHER_FB_UID"
+    "YOUR_FB_UID"
   ],
   "DESIGN": {
     "Title": "BotPack",
-    "Theme": "Blue",
-    "Admin": "YOUR_NAME",
+    "Theme": "neon",
+    "Admin": "Itz Gerald Max",
     "Setup": {
       "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
       "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
@@ -41,13 +40,13 @@
   "DEL_FUNCTION": false,
   "ADD_FUNCTION": true,
   "FCAOption": {
-    "forceLogin": false,
+    "forceLogin": true,
     "listenEvents": true,
-    "autoMarkDelivery": false,
+    "autoMarkDelivery": true,
     "autoMarkRead": false,
     "logLevel": "error",
     "selfListen": false,
-    "online": true,
+    "online": false,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
   },
   "daily": {
@@ -59,17 +58,17 @@
   },
   "help": {
     "autoUnsend": true,
-    "delayUnsend": 60
+    "delayUnsend": 2000
   },
   "adminUpdate": {
-    "autoUnsend": true,
+    "autoUnsend": false,
     "sendNoti": true,
-    "timeToUnsend": 10
+    "timeToUnsend": null
   },
   "adminNoti": {
-    "autoUnsend": true,
+    "autoUnsend": false,
     "sendNoti": true,
-    "timeToUnsend": 10
+    "timeToUnsend": null
   },
   "sing": {
     "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
@@ -82,7 +81,7 @@
     "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
   },
   "menu": {
-    "autoUnsend": true,
-    "delayUnsend": 60
+    "autoUnsend": false,
+    "delayUnsend": null
   }
 }
